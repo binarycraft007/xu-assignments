@@ -1,0 +1,11 @@
+.my-tasks-container {
+  padding: 20px;
+  text-align: left;
+}
+
+.my-tasks-container h2 {
+  color: #00bcd4;
+  margin-bottom: 20px;
+}
+
+/* TaskList component handles its own responsiveness */

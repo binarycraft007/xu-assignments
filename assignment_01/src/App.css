@@ -1,0 +1,66 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #16213e;
+  padding: 15px 20px;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.App-header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow navigation items to wrap */
+}
+
+.App-header nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.App-header nav li a:hover {
+  background-color: #0f3460;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .App-header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App-header nav li {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .App-header nav li a {
+    padding: 12px 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
