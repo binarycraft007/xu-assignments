@@ -1,0 +1,11 @@
+basePath: /api/v1
+host: localhost:8000
+info:
+  contact: {}
+  description: A RESTful to-do item management API.
+  title: Todo Application API
+  version: "1.0"
+paths: {}
+schemes:
+- http
+swagger: "2.0"
